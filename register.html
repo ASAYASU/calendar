@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>新規登録</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h1>新規登録</h1>
+
+<!--Flaskの命令をHTMLに埋め込み（withは変数作成に必要、フラッシュメッセージのカテゴリ名も取得）-->
+{% with messages = get_flashed_messages(with_categories=true) %}
+{% if messages %}
+<ul>
+    <!-- フラッシュメッセージを表示（for関数でメッセージとカテゴリを取出し、ブラウザに表示されるリストのクラスにカテゴリを適用・CSSで色付け）-->
+    {% for category, message in messages %}
+    <li class="{{category}}">
+        {{ message }}
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
+{% endwith %}
+
+<!-- HTMLだけでform送信 -->
+<form action="/action/register" method="POST">
+
+    <label>ID</label><br>
+    <input type="text" name="user_id" required maxlength="50"><br><br>
+
+    <label>パスワード</label><br>
+    <input type="password" name="password" required maxlength="50"><br><br>
+
+    <button type="submit">登録</button>
+
+</form>
+
+<p>
+    <a href="/login">ログイン画面へ</a>
+</p>
+
+</body>
+</html>

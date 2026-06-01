@@ -1,0 +1,45 @@
+/*本文全体をゴシック体（sans-serif）に、ページ全体の外側に30px余白を設ける*/
+body
+{
+    font-family: sans-serif;
+    margin: 30px;
+    font-size: 16px;
+}
+
+/*入力欄の横幅を300pxに設定*/
+#schedule_title
+{
+    width: 300px;
+}
+#schedule_datetime
+{
+    width: 150px;
+}
+#delete_id
+{
+    width: 50px;
+}
+
+/*ボタンを少し大きくする*/
+button
+{
+    padding: 3px;
+}
+
+/*全リストの下に10px余白を設ける*/
+li
+{
+    margin-bottom: 10px;
+}
+
+/*フラッシュメッセージのカテゴリ名がerror時は赤色で表示*/
+.error
+{
+    color: red;
+}
+
+/*フラッシュメッセージのカテゴリ名がsuccess時は緑色で表示*/
+.success
+{
+    color: green;
+}
