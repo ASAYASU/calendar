@@ -13,6 +13,7 @@
 ＜フォルダ構成＞
 　ご使用時はPythonとFlaskとSQLite3をサーバー機器にインストールし、下記の通り各ファイルをフォルダ上にを配置してください。
 
+<pre
 任意の名前のフォルダ<br>
   |ーstatic<br>
   |    |ーindex.js<br>
@@ -22,7 +23,7 @@
   |    |ーlogin.html<br>
   |    |ーregister.html<br>
   |ーapp.py<br>
-
+</pre>
  
 
 ※開発中の機能
