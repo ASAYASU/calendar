@@ -14,14 +14,14 @@
 　ご使用時はPythonとFlaskとSQLite3をサーバー機器にインストールし、下記の通り各ファイルをフォルダ上にを配置してください。
 
 任意の名前のフォルダ<br>
-  |ーstatic
-  |    |ーindex.js
-  |    |ーstyle.css
-  |ーtemplates
-  |    |ーindex.html      
-  |    |ーlogin.html
-  |    |ーregister.html
-  |ーapp.py
+  |ーstatic<br>
+  |    |ーindex.js<br>
+  |    |ーstyle.css<br>
+  |ーtemplates<br>
+  |    |ーindex.html<br>      
+  |    |ーlogin.html<br>
+  |    |ーregister.html<br>
+  |ーapp.py<br>
 
  
 
