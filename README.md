@@ -15,14 +15,14 @@
 
 <pre
 任意の名前のフォルダ<br>
-  |ーstatic<br>
-      |ーindex.js<br>
-      |ーstyle.css<br>
-  |ーtemplates<br>
-      |ーindex.html<br>      
-      |ーlogin.html<br>
-      |ーregister.html<br>
-  |ーapp.py<br>
+  |ー static<br>
+      |ー index.js<br>
+      |ー style.css<br>
+  |ー templates<br>
+      |ー index.html<br>      
+      |ー login.html<br>
+      |ー register.html<br>
+  |ー app.py<br>
 </pre>
  
 
