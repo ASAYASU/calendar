@@ -14,7 +14,7 @@
 　ご使用時はPythonとFlaskとSQLite3をサーバー機器にインストールし、下記の通り各ファイルをフォルダ上に配置してください。<br>
 <br>
 <pre>
-### 任意の名前のフォルダ
+任意の名前のフォルダ
   |ー static<br>
       |ー index.js<br>
       |ー style.css<br>
