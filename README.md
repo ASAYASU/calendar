@@ -15,6 +15,7 @@
 <br>
 <pre>
 任意の名前のフォルダ
+  |
   |ー static<br>
       |ー index.js<br>
       |ー style.css<br>
