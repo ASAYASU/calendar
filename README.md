@@ -16,12 +16,12 @@
 <pre
 任意の名前のフォルダ<br>
   |ーstatic<br>
-  |    |ーindex.js<br>
-  |    |ーstyle.css<br>
+      |ーindex.js<br>
+      |ーstyle.css<br>
   |ーtemplates<br>
-  |    |ーindex.html<br>      
-  |    |ーlogin.html<br>
-  |    |ーregister.html<br>
+      |ーindex.html<br>      
+      |ーlogin.html<br>
+      |ーregister.html<br>
   |ーapp.py<br>
 </pre>
  
