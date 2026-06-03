@@ -1,4 +1,4 @@
-# calendar（IoT化予定※）
+# calendar
 
 
 ＜機能＞
