@@ -12,7 +12,7 @@ async function loadEvents(){ //async関数（awaitというfetch結果が返る�
     //JSON型文字列を完全なJSONに変換してJavaScriptで扱えるようにする
     const events = await response.json();
 
-    //予定データを表示するためのulリストのidを取得・定数に初期化
+    //予定データを表示するためのulリストのidを取得・定数に初期化、documentはJSで一つのHTMLページ全体を指す
     const list = document.getElementById("event_list");
 
     //ulリスト初期化（予定データを更新するたびに前の予定データを消すため）
