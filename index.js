@@ -1,5 +1,5 @@
-//予定取得・表示用async関数（awaitというfetch結果が返るまで待てる構文を使える）
-async function loadEvents(){
+//予定はホームページアクセス時と予定追加時に再取得・表示されるので関数化する
+async function loadEvents(){ //async関数（awaitというfetch結果が返るまで待てる構文を使える）
     //GETリクエストを"/get_events"に送り、サーバー側での処理が終わり通信結果であるJSON型文字列の予定データが返ったら、constの再代入不可の定数に初期化（GETは省略可）
     const response = await fetch("/get_events");
 
